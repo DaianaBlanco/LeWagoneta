@@ -1,0 +1,94 @@
+body{
+    background-color:#f4f7c5;
+    margin: 0px;
+    color: rgba(0, 0, 0, 0, 9);
+    font-size: 25px;
+    font-family: 'Didact Gothic', sans-serif;
+  }
+  h1{
+    font-family: 'Ranchers', cursive;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+  }
+  h2 {
+    font-family: 'Ranchers', cursive;
+    color: #b83b5e;
+    font-weight: lighter;
+    font-size: 30px;
+  }
+  a {
+    color: #ffffff;
+  }
+  a:hover {
+    text-decoration: none;
+    color: rgb(128, 0, 92);
+  }
+  #banner{
+    text-align: center;
+    background-image: url("./img/backgroundchihuahua.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    padding: 200px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+  }
+  #banner h1 {
+    color: white;
+    font-size: 50px;
+  }
+  #banner p {
+    color: white;
+    opacity: 0.8;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+
+  .chihuahuas {
+    width: 120px;
+    border-radius: 100px;
+  }
+  #footer{
+    padding: 0px 50px;
+    background:#ea907a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+  }
+    #footer a {
+      color: lightgrey;
+      font-size: 50px;
+    }
+    #footer a:hover {
+      color: pink;
+    }
+
+  .container {
+    margin: 50px;
+    margin-left: 80px;
+    margin-right: 10px;
+  }
+
+  .text-center {
+margin: 0px;
+  }
+
+  .navbar-lewagon {
+    justify-content: space-between;
+    background:#EDA0AB;
+    padding: 25px;
+    height: 80px;
+  }
+  
+  .navbar-lewagon .navbar-collapse {
+    flex-grow: 0;
+  }
+  
+  .navbar-lewagon .navbar-brand img {
+    width: 80px;
+
+  }
+  
